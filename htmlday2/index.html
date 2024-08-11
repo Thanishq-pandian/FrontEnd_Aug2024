@@ -1,0 +1,137 @@
+<!DOCTYPE html> <!--to get html boiler plate typr ! and enter -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Html Bootcamp</title>
+</head>
+<body>
+    <!--list => ordered and unordered-->
+    <ol type="1"> <!--types A,a,1,I,i-->
+        <li>Apple</li>
+        <li>Mango</li>
+        <li>Orange</li>
+        <li>Grapes</li>
+        
+    </ol>
+    <ol type="I" start="3">
+        <li>Thanishq</li>
+        <li>Pandian</li>
+        <li>Juhi</li>
+    </ol>
+    <ul >       <!--default => dot, other types => none,circle,square,disc(default) -->
+        <li>carrot</li>
+        <li>ladysfinger</li>
+        <li>beetroot</li>
+        <li>cabbage</li>
+    </ul>
+
+    <!--Tables-->
+    <table border="">
+        <tr>  <!--tr=> table row-->
+            <th>Name</th>    <!--th=> table head-->
+            <th>ID</th>
+            <th>ph num</th>
+        </tr>
+        <tr>
+            <td>Thanishq</td>  <!--td=>table data-->
+            <td>20201CSE0751</td>
+            <td>8660830200</td>
+        </tr>
+        <tr>
+            <td>Keshav</td>
+            <td>20201CSE0773</td>
+            <td></td>
+        </tr>
+    </table>
+    <br>
+    <br>
+
+
+
+
+    
+          <!--Input fields (forms)-->
+    <form action="">  <!--Action=>is an attribute which is used to enter where the data of this form to be sent-->
+        <label for="" >Enter name</label>
+        <input type="text" placeholder="Enter your name">
+        <br>
+        <br>
+        <label for="">Enter email</label>
+        <input type="email" placeholder="Enter your email ID" required value="abc@gmail.com">
+        <br>
+        <br>
+        <label for="">Enter password</label>
+        <input type="password" placeholder="Enter your password">
+        <br>
+        <br>
+        <label for="">DOB</label>
+        <input type="date">
+        <br>
+        <br>
+        <label for="">Dob and time</label>
+        <input type="datetime-local">
+        <br>
+        <br>
+        <label for="">Gender:</label> <br><br>
+        <label for="">Male</label>
+        <input type="radio" name="Gender"> <!--attribute name="Gender is used to select one specific either male or female"-->
+        <label for="">Female</label>
+        <input type="radio" name="Gender">
+        <br>
+        <br>
+        <label for="">Select all suitable criteria</label><br><br>
+        <label for="">Graduate</label>
+        <input type="checkbox" name="cr" ><br><br>
+        <label for="">Under Graduate</label>
+        <input type="checkbox" name="cr" ><br><br>
+        <label for="">Under Graduate</label>
+        <input type="checkbox" name="cr" ><br><br>
+        <label for="">Choose your Car</label>
+        <select name="Cars" id="">
+            <option value="BMW">BMW</option>
+            <option value="BENZ">Benz</option>
+            <option value="Mini cooper">Mini cooper</option>
+            <option value="Jaguar">Jaguar</option>
+        </select><br><br>
+
+        <input type="text" minlength="10" maxlength="12">   <!--Range -->
+        <br><br>
+
+
+
+        
+        <button type="submit">submit</button>
+
+
+
+
+    </form>
+    
+    <!--Semantic Tags => main,header,nav,aside,beside,footer,section-->
+
+    <main>
+        <header>
+            <nav>
+                this is my nav bar
+            </nav>
+            <p>This is my header</p>
+        </header>
+            <section>
+                <aside>
+                    <p>This is my content</p>
+                </aside>
+                <div>This is my sidebar</div>
+            </section>
+            <footer>This is my footer</footer>
+        
+    </main><br><br>
+
+    <p>This is my <span>Html bootcamp</span></p> <!--no output for span by itself ,but can use CSS to make changes-->
+
+
+  
+
+   
+</body>
+</html>
